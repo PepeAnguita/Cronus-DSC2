@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Power_Conn_01x02
+D Power connector, single row, 01x02
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library
