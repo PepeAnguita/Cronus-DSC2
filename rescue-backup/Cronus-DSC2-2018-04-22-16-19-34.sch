@@ -1,6 +1,7 @@
-EESchema Schematic File Version 4
-LIBS:Cronus-DSC2-cache
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:Cronus-Amanero-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +16,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_02x10_Top_Bottom J2
+L Cronus-Amanero-rescue:Conn_02x10_Top_Bottom J2
 U 1 1 5ACE2D9B
 P 7950 3900
 F 0 "J2" V 8000 4400 50  0000 C CNN
@@ -28,7 +29,7 @@ $EndComp
 NoConn ~ 8150 3800
 NoConn ~ 7650 3800
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR01
+L power:GND #PWR01
 U 1 1 5ACE3326
 P 3000 5550
 F 0 "#PWR01" H 3000 5300 50  0001 C CNN
@@ -39,7 +40,7 @@ F 3 "" H 3000 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_conn_Power_Conn_01x02 PWR_5V1
+L power_conn:Power_Conn_01x02 PWR_5V1
 U 1 1 5ACE33CA
 P 3150 5100
 F 0 "PWR_5V1" H 3200 5250 50  0000 C CNN
@@ -50,7 +51,7 @@ F 3 "" H 3150 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_GS2 JP1
+L Cronus-Amanero-rescue:GS2 JP1
 U 1 1 5ACE3739
 P 8600 3500
 F 0 "JP1" V 8700 3500 50  0000 C CNN
@@ -61,7 +62,7 @@ F 3 "" H 8600 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_01x01 P9
+L Cronus-Amanero-rescue:Conn_01x01 P9
 U 1 1 5ACE4F80
 P 3050 2150
 F 0 "P9" H 3200 2150 50  0000 C CNN
@@ -72,7 +73,7 @@ F 3 "" H 3050 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_01x01 P8
+L Cronus-Amanero-rescue:Conn_01x01 P8
 U 1 1 5ACE534C
 P 3050 2300
 F 0 "P8" H 3200 2300 50  0000 C CNN
@@ -83,7 +84,7 @@ F 3 "" H 3050 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_01x01 P7
+L Cronus-Amanero-rescue:Conn_01x01 P7
 U 1 1 5ACE539D
 P 3050 2450
 F 0 "P7" H 3200 2450 50  0000 C CNN
@@ -94,7 +95,7 @@ F 3 "" H 3050 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_01x01 P6
+L Cronus-Amanero-rescue:Conn_01x01 P6
 U 1 1 5ACE53D0
 P 3050 2600
 F 0 "P6" H 3200 2600 50  0000 C CNN
@@ -105,7 +106,7 @@ F 3 "" H 3050 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_01x01 P5
+L Cronus-Amanero-rescue:Conn_01x01 P5
 U 1 1 5ACE5415
 P 3050 2750
 F 0 "P5" H 3200 2750 50  0000 C CNN
@@ -116,7 +117,7 @@ F 3 "" H 3050 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_01x01 P4
+L Cronus-Amanero-rescue:Conn_01x01 P4
 U 1 1 5ACE545C
 P 3050 2900
 F 0 "P4" H 3200 2900 50  0000 C CNN
@@ -127,7 +128,7 @@ F 3 "" H 3050 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_conn_Power_Conn_01x02 PWR_3V31
+L power_conn:Power_Conn_01x02 PWR_3V31
 U 1 1 5AD101C2
 P 9800 2950
 F 0 "PWR_3V31" H 9800 3100 50  0000 C CNN
@@ -142,7 +143,7 @@ NoConn ~ 7650 3600
 NoConn ~ 7650 3500
 NoConn ~ 7650 3400
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_GS3 J8
+L Cronus-Amanero-rescue:GS3 J8
 U 1 1 5AD10B1A
 P 4600 2800
 F 0 "J8" H 4650 3000 50  0000 C CNN
@@ -153,7 +154,7 @@ F 3 "" H 4600 2800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_GS3 J6
+L Cronus-Amanero-rescue:GS3 J6
 U 1 1 5AD11081
 P 4600 3400
 F 0 "J6" H 4650 3600 50  0000 C CNN
@@ -164,7 +165,7 @@ F 3 "" H 4600 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_GS3 J4
+L Cronus-Amanero-rescue:GS3 J4
 U 1 1 5AD110F9
 P 4600 4000
 F 0 "J4" H 4650 4200 50  0000 C CNN
@@ -175,7 +176,7 @@ F 3 "" H 4600 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_GS3 J9
+L Cronus-Amanero-rescue:GS3 J9
 U 1 1 5AD115A2
 P 6000 2500
 F 0 "J9" H 6050 2700 50  0000 C CNN
@@ -186,7 +187,7 @@ F 3 "" H 6000 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_GS3 J7
+L Cronus-Amanero-rescue:GS3 J7
 U 1 1 5AD115A8
 P 6000 3100
 F 0 "J7" H 6050 3300 50  0000 C CNN
@@ -197,7 +198,7 @@ F 3 "" H 6000 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_GS3 J5
+L Cronus-Amanero-rescue:GS3 J5
 U 1 1 5AD115AE
 P 6000 3700
 F 0 "J5" H 6050 3900 50  0000 C CNN
@@ -213,7 +214,7 @@ NoConn ~ 7650 4200
 Wire Wire Line
 	3800 3500 3350 3500
 Wire Wire Line
-	8900 2050 8900 3500
+	8900 2050 8900 3700
 Wire Wire Line
 	8900 3500 8800 3500
 Wire Wire Line
@@ -237,7 +238,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 3400 8150 3400
 Wire Wire Line
-	8150 3500 8300 3500
+	8150 3500 8400 3500
 Wire Wire Line
 	8350 3900 8150 3900
 Wire Wire Line
@@ -265,7 +266,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3900 4250 3900
 Wire Wire Line
-	3250 5300 3400 5300
+	3250 5300 3500 5300
 Wire Wire Line
 	3400 5300 3400 5550
 Wire Wire Line
@@ -297,29 +298,29 @@ Wire Wire Line
 Wire Wire Line
 	4750 4100 4750 4300
 Wire Wire Line
-	4750 4300 5350 4300
+	4750 4300 7650 4300
 Connection ~ 5350 4300
 Connection ~ 6700 4300
 Wire Wire Line
-	5350 2900 5350 3500
+	5350 2900 5350 4300
 Wire Wire Line
 	4750 2900 5350 2900
 Wire Wire Line
-	6700 2600 6700 3200
+	6700 2600 6700 4300
 Wire Wire Line
 	6150 2600 6700 2600
 Wire Wire Line
 	4750 2700 4750 2050
 Wire Wire Line
-	4750 2050 5550 2050
+	4750 2050 8900 2050
 Connection ~ 5550 2050
 Wire Wire Line
-	5550 2050 5550 3300
+	5550 2050 5550 3900
 Wire Wire Line
 	5550 3900 4750 3900
 Connection ~ 7100 2050
 Wire Wire Line
-	7100 2050 7100 2400
+	7100 2050 7100 3600
 Wire Wire Line
 	7100 3600 6150 3600
 Connection ~ 5550 3300
@@ -341,7 +342,7 @@ Connection ~ 7100 2400
 Wire Wire Line
 	7100 2400 6150 2400
 $Comp
-L Cronus-DSC2-rescue:power_VDD #PWR02
+L power:VDD #PWR02
 U 1 1 5AD3981B
 P 9550 2750
 F 0 "#PWR02" H 9550 2600 50  0001 C CNN
@@ -352,7 +353,7 @@ F 3 "" H 9550 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR03
+L power:GND #PWR03
 U 1 1 5AD396D5
 P 9950 2750
 F 0 "#PWR03" H 9950 2500 50  0001 C CNN
@@ -363,7 +364,7 @@ F 3 "" H 9950 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_VDD #PWR04
+L power:VDD #PWR04
 U 1 1 5AD39EF1
 P 8200 3300
 F 0 "#PWR04" H 8200 3150 50  0001 C CNN
@@ -374,7 +375,7 @@ F 3 "" H 8200 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR05
+L power:GND #PWR05
 U 1 1 5AD39FD2
 P 8200 3600
 F 0 "#PWR05" H 8200 3350 50  0001 C CNN
@@ -385,7 +386,7 @@ F 3 "" H 8200 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_VCC #PWR06
+L power:VCC #PWR06
 U 1 1 5AD3A38B
 P 3400 5550
 F 0 "#PWR06" H 3400 5400 50  0001 C CNN
@@ -396,7 +397,7 @@ F 3 "" H 3400 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_VCC #PWR07
+L power:VCC #PWR07
 U 1 1 5AD3A4EF
 P 3400 3400
 F 0 "#PWR07" H 3400 3250 50  0001 C CNN
@@ -409,7 +410,7 @@ $EndComp
 Connection ~ 3400 5300
 Connection ~ 3000 5300
 $Comp
-L Cronus-DSC2-rescue:power_PWR_FLAG #FLG08
+L power:PWR_FLAG #FLG08
 U 1 1 5AD3A630
 P 3500 5300
 F 0 "#FLG08" H 3500 5375 50  0001 C CNN
@@ -421,7 +422,7 @@ F 3 "" H 3500 5300 50  0001 C CNN
 $EndComp
 Connection ~ 9700 2750
 $Comp
-L Cronus-DSC2-rescue:power_PWR_FLAG #FLG09
+L power:PWR_FLAG #FLG09
 U 1 1 5AD3AA86
 P 9700 2650
 F 0 "#FLG09" H 9700 2725 50  0001 C CNN
@@ -435,9 +436,9 @@ Connection ~ 8900 3500
 Wire Wire Line
 	9700 2750 9700 2650
 Wire Wire Line
-	2900 5300 3000 5300
+	2900 5300 3150 5300
 $Comp
-L Cronus-DSC2-rescue:power_PWR_FLAG #FLG010
+L power:PWR_FLAG #FLG010
 U 1 1 5AD969C6
 P 2900 5300
 F 0 "#FLG010" H 2900 5375 50  0001 C CNN
@@ -448,7 +449,7 @@ F 3 "" H 2900 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:Cronus-Amanero-rescue_Conn_02x10_Top_Bottom CRNSOUT1
+L Cronus-Amanero-rescue:Conn_02x10_Top_Bottom CRNSOUT1
 U 1 1 5ACE2CF1
 P 3150 3900
 F 0 "CRNSOUT1" H 3200 4400 50  0000 C CNN
@@ -461,7 +462,7 @@ $EndComp
 Wire Wire Line
 	3350 3400 3400 3400
 $Comp
-L Cronus-DSC2-rescue:power_VCC #PWR011
+L power:VCC #PWR011
 U 1 1 5AD97B1C
 P 2800 3400
 F 0 "#PWR011" H 2800 3250 50  0001 C CNN
@@ -474,7 +475,7 @@ $EndComp
 Wire Wire Line
 	2850 3400 2800 3400
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR012
+L power:GND #PWR012
 U 1 1 5AD9807E
 P 7500 3900
 F 0 "#PWR012" H 7500 3650 50  0001 C CNN
@@ -485,7 +486,7 @@ F 3 "" H 7500 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR013
+L power:GND #PWR013
 U 1 1 5AD980EB
 P 7600 4000
 F 0 "#PWR013" H 7600 3750 50  0001 C CNN
@@ -496,7 +497,7 @@ F 3 "" H 7600 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR014
+L power:GND #PWR014
 U 1 1 5AD98129
 P 7500 4100
 F 0 "#PWR014" H 7500 3850 50  0001 C CNN
@@ -511,7 +512,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4100 7650 4100
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR015
+L power:GND #PWR015
 U 1 1 5AD983EE
 P 3400 2150
 F 0 "#PWR015" H 3400 1900 50  0001 C CNN
@@ -522,7 +523,7 @@ F 3 "" H 3400 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR016
+L power:GND #PWR016
 U 1 1 5AD98483
 P 3300 2300
 F 0 "#PWR016" H 3300 2050 50  0001 C CNN
@@ -533,7 +534,7 @@ F 3 "" H 3300 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR017
+L power:GND #PWR017
 U 1 1 5AD984C1
 P 3400 2450
 F 0 "#PWR017" H 3400 2200 50  0001 C CNN
@@ -544,7 +545,7 @@ F 3 "" H 3400 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR018
+L power:GND #PWR018
 U 1 1 5AD984FF
 P 3300 2600
 F 0 "#PWR018" H 3300 2350 50  0001 C CNN
@@ -555,7 +556,7 @@ F 3 "" H 3300 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR019
+L power:GND #PWR019
 U 1 1 5AD9853D
 P 3400 2750
 F 0 "#PWR019" H 3400 2500 50  0001 C CNN
@@ -566,7 +567,7 @@ F 3 "" H 3400 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR020
+L power:GND #PWR020
 U 1 1 5AD9857B
 P 3300 2900
 F 0 "#PWR020" H 3300 2650 50  0001 C CNN
@@ -589,7 +590,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2900 3300 2900
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR021
+L power:GND #PWR021
 U 1 1 5AD98846
 P 2800 3500
 F 0 "#PWR021" H 2800 3250 50  0001 C CNN
@@ -600,7 +601,7 @@ F 3 "" H 2800 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR022
+L power:GND #PWR022
 U 1 1 5AD98A8E
 P 2750 3600
 F 0 "#PWR022" H 2750 3350 50  0001 C CNN
@@ -611,7 +612,7 @@ F 3 "" H 2750 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR023
+L power:GND #PWR023
 U 1 1 5AD98AD2
 P 2800 3700
 F 0 "#PWR023" H 2800 3450 50  0001 C CNN
@@ -622,7 +623,7 @@ F 3 "" H 2800 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR024
+L power:GND #PWR024
 U 1 1 5AD98AD8
 P 2750 3800
 F 0 "#PWR024" H 2750 3550 50  0001 C CNN
@@ -633,7 +634,7 @@ F 3 "" H 2750 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR025
+L power:GND #PWR025
 U 1 1 5AD98B17
 P 2800 3900
 F 0 "#PWR025" H 2800 3650 50  0001 C CNN
@@ -644,7 +645,7 @@ F 3 "" H 2800 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR026
+L power:GND #PWR026
 U 1 1 5AD98B1D
 P 2750 4000
 F 0 "#PWR026" H 2750 3750 50  0001 C CNN
@@ -655,7 +656,7 @@ F 3 "" H 2750 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR027
+L power:GND #PWR027
 U 1 1 5AD98B29
 P 2800 4100
 F 0 "#PWR027" H 2800 3850 50  0001 C CNN
@@ -666,7 +667,7 @@ F 3 "" H 2800 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR028
+L power:GND #PWR028
 U 1 1 5AD98B2F
 P 2750 4200
 F 0 "#PWR028" H 2750 3950 50  0001 C CNN
@@ -677,7 +678,7 @@ F 3 "" H 2750 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Cronus-DSC2-rescue:power_GND #PWR029
+L power:GND #PWR029
 U 1 1 5AD98C03
 P 2800 4300
 F 0 "#PWR029" H 2800 4050 50  0001 C CNN
@@ -708,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 4000 7650 4000
 $Comp
-L Cronus-DSC2-rescue:power_VDD #PWR030
+L power:VDD #PWR030
 U 1 1 5AD99443
 P 8300 3450
 F 0 "#PWR030" H 8300 3300 50  0001 C CNN
@@ -723,32 +724,4 @@ Wire Wire Line
 	8300 3500 8300 3450
 Wire Wire Line
 	8200 3300 8200 3400
-Wire Wire Line
-	5350 4300 6700 4300
-Wire Wire Line
-	6700 4300 7650 4300
-Wire Wire Line
-	5550 2050 7100 2050
-Wire Wire Line
-	7100 2050 8900 2050
-Wire Wire Line
-	5550 3300 5550 3900
-Wire Wire Line
-	5350 3500 5350 4300
-Wire Wire Line
-	6700 3200 6700 3800
-Wire Wire Line
-	6700 3800 6700 4300
-Wire Wire Line
-	7100 3000 7100 3600
-Wire Wire Line
-	7100 2400 7100 3000
-Wire Wire Line
-	3400 5300 3500 5300
-Wire Wire Line
-	3000 5300 3150 5300
-Wire Wire Line
-	8900 3500 8900 3700
-Wire Wire Line
-	8300 3500 8400 3500
 $EndSCHEMATC
